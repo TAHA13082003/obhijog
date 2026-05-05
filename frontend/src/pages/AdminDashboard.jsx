@@ -43,7 +43,7 @@ export default function AdminDashboard() {
   return (
     <div className="min-h-screen bg-dark text-white">
       <nav className="bg-gray-900 border-b border-gray-800 px-8 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-primary">SmartGrieve <span className="text-gray-400 text-sm font-normal">Admin</span></h1>
+        <h1 className="text-2xl font-bold text-primary">Obhijog<span className="text-gray-400 text-sm font-normal">Admin</span></h1>
         <div className="flex items-center gap-6">
           <span className="text-gray-400">{user?.username}</span>
           <button onClick={logout} className="text-red-400 hover:text-red-300 text-sm">Logout</button>

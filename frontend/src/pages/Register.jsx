@@ -35,7 +35,7 @@ export default function Register() {
     <div className="min-h-screen bg-dark flex items-center justify-center py-10">
       <div className="bg-gray-900 p-10 rounded-2xl w-full max-w-md border border-gray-800">
         <h1 className="text-3xl font-bold text-white mb-2">Create Account</h1>
-        <p className="text-gray-400 mb-8">Join SmartGrieve</p>
+        <p className="text-gray-400 mb-8">Join Obhijog</p>
         <form onSubmit={handleSubmit} className="space-y-4">
           {fields.map(f => (
             <input

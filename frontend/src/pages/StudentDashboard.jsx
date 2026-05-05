@@ -46,7 +46,7 @@ export default function StudentDashboard() {
     <div className="min-h-screen bg-dark text-white">
       {/* Navbar */}
       <nav className="bg-gray-900 border-b border-gray-800 px-8 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-primary">SmartGrieve</h1>
+        <h1 className="text-2xl font-bold text-primary">Obhijog</h1>
         <div className="flex items-center gap-6">
           <span className="text-gray-400">Welcome, <span className="text-white font-semibold">{user?.username}</span></span>
           <button onClick={logout} className="text-red-400 hover:text-red-300 text-sm">Logout</button>
